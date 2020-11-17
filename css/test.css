@@ -1,0 +1,7 @@
+.cs-font-primary, button, .button, input[type="button"], input[type="reset"], input[type="submit"], .no-comments, .text-action, .archive-wrap .more-link, .share-total, .nav-links, .comment-reply-link, .post-tags .title-tags, .post-sidebar-tags a, .meta-category a, .read-more, .post-prev-next .link-text, .navigation.pagination .nav-links > span, .navigation.pagination .nav-links > a, .subcategories .cs-nav-link, .widget_categories ul li a, .entry-meta-details .pk-share-buttons-count, .entry-meta-details .pk-share-buttons-label, .pk-font-primary, .navbar-dropdown-btn-follow, .footer-instagram .instagram-username, .navbar-follow-instagram .navbar-follow-text, .navbar-follow-youtube .navbar-follow-text, .navbar-follow-facebook .navbar-follow-text, .pk-twitter-counters .number, .pk-instagram-counters .number, .navbar-follow .navbar-follow-counters .number, .footer-instagram .pk-instagram-username {
+    font-family: Overpass;
+    font-size: 0.625rem;
+    font-weight: 700;
+    letter-spacing: 0.125em;
+    text-transform: uppercase;
+}
