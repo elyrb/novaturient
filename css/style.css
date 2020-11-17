@@ -15,8 +15,8 @@ body{
 
 }
 
-.wrapper i{
-  wor;
+i{
+  margin: 10px;
 }
 
 header{
@@ -31,11 +31,15 @@ header h1{
   color: #000;
 }
 
+header .btn{
+
+}
+
 .btn {
   
   width: 10;
   height: 2px;
-	padding: 1.375rem 2.625rem 1.375rem 2.625rem;
+	padding: 15px 15px 15px 15px;
 	border: 0.125rem solid #B49DF1;
 	border-radius: 2rem;
 	background-color: #B49DF1;
@@ -85,7 +89,7 @@ nav li a:after {
   bottom: 0;
   content: "";
   display: block;
-  height: 2px;
+  height: 1px;
   left: 50%;
   position: absolute;
   background: #000;
@@ -122,7 +126,7 @@ nav li a:hover:after {
   opacity: 0.8;
   object-fit: cover;
   width: 100%;
-  height: 70%;
+  height: 80%;
 }
 .banner h1 {
   position: absolute;
@@ -139,7 +143,7 @@ nav li a:hover:after {
   color: rgb(216, 213, 213);
 }
 
-p{
+.banner p{
   position: absolute;
   text-align: center;
   font: "Arial";
@@ -147,13 +151,24 @@ p{
   z-index: 9999;
   color: rgb(236, 236, 236);
   top: 58%;
-  left: 12%;
+  left: 9.5%;
+  transform: translate(-50%,-50%);
+}
+.banner .subheader{
+  position: absolute;
+  text-align: center;
+  font: "Arial";
+  font-size: 13pt;
+  z-index: 9999;
+  color: rgb(236, 236, 236);
+  top: 63%;
+  left: 11%; 
   transform: translate(-50%,-50%);
 }
 
 .banner .btn{
-  bottom: 30%;
-  left: 6%;
+  bottom: 34%;
+  left: 5.8%;
   float: left;
 
 }
